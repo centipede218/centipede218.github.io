@@ -1,0 +1,107 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-button {
+    background-color: navy;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.nav-button:hover {
+    background-color: #0056b3;
+}
+
+main {
+    padding: 20px;
+    text-align: center; /* Center-align all content in main */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Home Page Styles */
+.text-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 20px auto; /* Center-align and add margin */
+    width: 50%; /* Smaller width */
+}
+
+/* Contact Page Styles */
+.contact-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.text-box p {
+    margin: 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+.email-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: navy;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.email-button:hover {
+    background-color: #0056b3;
+}
+
+/* Gallery Page Styles */
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.gallery-image {
+    border: 2px solid navy;
+    max-width: 30%;
+    height: auto;
+    display: block;
+    margin: 0 10px;
+}

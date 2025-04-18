@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <button class="nav-button" onclick="location.href='index.html'">H</button>
+            <button class="nav-button" onclick="location.href='contact.html'">C</button>
+            <button class="nav-button" onclick="location.href='gallery.html'">G</button>
+        </nav>
+    </header>
+    <main>
+        <h1>Contact Us</h1>
+        <div class="text-box">
+            <p>Insert text here</p>
+        </div>
+        <button class="email-button" onclick="toggleForm()">Send Email Here</button>
+        <form id="contact-form" class="contact-form" style="display: none;">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <img src="images/eyes.png" alt="Eyes" class="contact-image">
+    </main>
+    <footer>
+        <p>&copy; 2025 My Website</p>
+    </footer>
+    <script>
+        function toggleForm() {
+            var form = document.getElementById('contact-form');
+            if (form.style.display === 'none') {
+                form.style.display = 'block';
+            } else {
+                form.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
